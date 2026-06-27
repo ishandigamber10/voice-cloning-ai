@@ -1,73 +1,196 @@
-# Welcome to your Lovable project
+# 🎙️ AI Voice Cloning
 
-## Project info
+> Clone voices with AI in seconds. Upload a voice sample, enter your text, and generate realistic speech.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🌐 **Live Demo:** https://voice-cloning-ai.vercel.app
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📖 Overview
 
-**Use Lovable**
+AI Voice Cloning is a modern web application that allows users to generate realistic speech using AI-powered voice cloning technology. Simply upload a voice sample, type the desired text, and let the AI recreate the voice naturally.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This project demonstrates the integration of modern frontend technologies with AI-based speech synthesis to create a fast, responsive, and user-friendly experience.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🎤 Upload voice samples
+- 🧠 AI-powered voice cloning
+- 💬 Convert text into cloned speech
+- ⚡ Fast and responsive interface
+- 🎧 Audio playback support
+- 📱 Fully responsive design
+- 🌙 Modern and clean UI
+- ☁️ Deployed on Vercel
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Live Demo
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+👉 https://voice-cloning-ai.vercel.app
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📸 Screenshots
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+> Add screenshots here after uploading them.
+
+```
+/screenshots
+ ├── home.png
+ ├── upload.png
+ └── output.png
+```
+
+Example:
+
+```md
+![Home](screenshots/home.png)
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+
+### AI / Backend
+- AI Voice Cloning Model
+- REST API
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+voice-cloning-ai/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── hooks/
+│   ├── utils/
+│   └── App.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/voice-cloning-ai.git
+```
+
+Go into the project
+
+```bash
+cd voice-cloning-ai
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📌 Usage
 
-## What technologies are used for this project?
+1. Open the application.
+2. Upload a voice sample.
+3. Enter the text you want to generate.
+4. Click **Generate**.
+5. Listen to or download the generated audio.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎯 Future Improvements
 
-## How can I deploy this project?
+- Multiple voice profiles
+- Voice history
+- Audio download
+- User authentication
+- API integration
+- Language selection
+- Emotion control
+- Voice library
+- Dark mode improvements
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+Contributions are welcome!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create a new branch
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push your branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Ishan Digamber**
+
+- GitHub: https://github.com/yourusername
+- LinkedIn: https://linkedin.com/in/yourprofile
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future development.
